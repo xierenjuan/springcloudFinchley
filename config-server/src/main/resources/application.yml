@@ -3,8 +3,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xierenjuan/myRepository.git
-          search-paths: redpackage-service
+          uri: https://github.com/xierenjuan/springcloudFinchley.git  # gif²Ö¿â
+          search-paths: configdir  # ²Ö¿âÏÂµÄÄ¿Â¼
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9900/eureka
   application:
       name: config-server
 server:

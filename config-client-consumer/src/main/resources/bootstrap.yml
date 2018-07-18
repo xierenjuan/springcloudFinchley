@@ -3,4 +3,4 @@ spring:
         config:
             label: master
             uri: http://localhost:8802
-            name: author,config-info,default
+            name: test,default
