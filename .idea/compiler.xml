@@ -6,10 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-client-consumer" />
+        <module name="config-server" />
+        <module name="eureka-client-comsumer" />
+        <module name="eureka-client-provider" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client-consumer" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka-client-comsumer" target="1.8" />
+      <module name="eureka-client-provider" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="springcloudFinchley" target="1.5" />
     </bytecodeTargetLevel>
